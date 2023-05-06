@@ -1,82 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Checkpoint2 Gabriel Fernandes</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-    <link rel="stylesheet" href="./css/todo.css" />
-  </head>
-  <body>
-    <div class ="fundo-menu">
-      <header>
-        <div class="container header-item">
-          <button class="button">
-            <i class="material-symbols-outlined"> menu </i>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkpoint2 Gabriel Fernandes</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="./css/todo.css" />
+</head>
+
+<body>
+  <div class="fundo-menu">
+    <header>
+      <div class="container header-item">
+        <button class="button">
+          <i class="material-symbols-outlined"> menu </i>
+        </button>
+        <img src="./assets/jacaré.jpg" alt="Imagem de jacaré" class="avatar" />
+      </div>
+    </header>
+    <section class="fundo-menu">
+      <div class="container">
+        <h1 class="title">Minhas tarefas</h1>
+        <p class="subtitle">Gabriel Fernandes</p>
+        <form class="form-task">
+          <label class="form-task-label">Adicionar tarefa</label>
+          <div class="alinhar-texto-botao">
+            <input class="form-task-input" type="text" name="" id="" />
+            <button class="button form-task-button">
+              <i class="material-symbols-outlined"> add </i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+  <div class="separa-funcoes"> </div>
+  <section>
+    <div class="fundo-opcoes">
+      <div class="container">
+        <div class="caixa-pesquisa">
+          <input type="checkbox" name="" id="" />
+          <div class="task-riscada">
+            <p>Aqui tem um task</p>
+          </div>
+          <button class="button pesquisabutton">
+            <i class="material-symbols-outlined"> edit </i>
           </button>
-          <img
-            src="./assets/jacaré.jpg"
-            alt="Imagem de jacaré"
-            class="avatar"
-          />
+          <button class="button deletebutton">
+            <i class="material-symbols-outlined"> delete </i>
+          </button>
         </div>
-      </header>
-      <section class = "fundo-menu">
-          <div class="container">
-            <h1 class="title">Minhas tarefas</h1>
-            <p class="subtitle">Gabriel Fernandes</p>
-            <form class="form-task">
-              <label class="form-task-label">Adicionar tarefa</label>
-              <div class="alinhar-texto-botao">
-              <input class="form-task-input" type="text" name="" id="" />
-                <button class="button form-task-button">
-                <i class="material-symbols-outlined"> add </i>
-                </button>
-              </div>
-            </form>
-          </div>
-      </section>
-    </div>
-  <div class = "separa-funcoes"> </div>
-      <section>
-        <div class ="fundo-opcoes">
-          <div class="container">
-            <div class="caixa-pesquisa">
-              <input type="checkbox" name="" id="" />
-              <div class ="task-riscada">
-                <p>Aqui tem um task</p>
-              </div>
-              <button class="button pesquisabutton">
-                <i class="material-symbols-outlined"> edit </i>
-              </button>
-              <button class="button deletebutton">
-                <i class="material-symbols-outlined"> delete </i>
-              </button>
-            </div>
-            <div class = "caixa-pesquisa">
-              <input type="checkbox" name="" id="" />
-              <p>Aqui tem um task</p>
-              <button class="button pesquisabutton">
-                <i class="material-symbols-outlined"> edit </i>
-              </button>
-              <button class="button deletebutton">
-                <i class="material-symbols-outlined"> delete </i>
-              </button>
-            </div>
-          </div>
+        <div class="caixa-pesquisa">
+          <input type="checkbox" name="" id="" />
+          <p>Aqui tem um task</p>
+          <button class="button pesquisabutton">
+            <i class="material-symbols-outlined"> edit </i>
+          </button>
+          <button class="button deletebutton">
+            <i class="material-symbols-outlined"> delete </i>
+          </button>
         </div>
-      </section>
+      </div>
     </div>
-  </body>
+  </section>
+  </div>
+</body>
+
 </html>
