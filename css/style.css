@@ -73,15 +73,15 @@ header {
   line-height: 1.5;
   letter-spacing: -1px;
   font-weight: 500;
-  font-size: 35px;
+  font-size: 27px;
   color: var(--color-text-light);
 }
 
 .subtitle {
   line-height: 1.2;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--color-brand-primary);
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .container {
@@ -103,13 +103,13 @@ header {
 
 .form-task-label {
   color: var(--color-text-dark);
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 800;
+  font-size: 12px;
 }
 
 .form-task-input {
-  width: 35vh;
-  height: 6vh;
+  width: 36vh;
+  height: 7vh;
   margin-bottom: var(--spacing-large);
   border: 1px solid var(--color-text-light);
   border-radius: 3px;
@@ -119,8 +119,8 @@ header {
 .form-task-button {
   background-color: var(--color-brand-secondary); 
   border-radius: 3px;
-  width: 7vh;
-  height: 6vh;
+  width: 9vh;
+  height: 7vh;
   color: white;
   margin-bottom: var(--spacing-large);
 }
