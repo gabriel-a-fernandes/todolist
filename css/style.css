@@ -111,6 +111,8 @@ header {
   width: 35vh;
   height: 6vh;
   margin-bottom: var(--spacing-large);
+  border: 1px solid var(--color-text-light);
+  border-radius: 3px;
  
 }
 
@@ -137,6 +139,7 @@ header {
 .fundo-opcoes{
  background-color: white;
  border-radius: 5%;
+ border: 1px solid var(--color-text-light);
  padding-bottom: 100%;
 }
 
