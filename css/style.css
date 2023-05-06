@@ -67,7 +67,7 @@ header {
   background-color: transparent;
   cursor: pointer;
   color: var(--color-text-dark);
-  }
+}
 
 .title {
   line-height: 1.5;
@@ -123,8 +123,6 @@ header {
   height: 6vh;
   color: white;
   margin-bottom: var(--spacing-large);
-  
-
 }
 .alinhar-texto-botao{
   display: flex;
@@ -132,9 +130,9 @@ header {
   gap: 2px;
 }
 
-.fundo-menu{
+/* .fundo-menu{
    
-}
+} */
 
 .fundo-opcoes{
  background-color: white;
@@ -172,4 +170,4 @@ header {
 .separa-funcoes{
   margin-bottom: var(--spacing-small);
 }
-/*  text-decoration: line-through; */
+
