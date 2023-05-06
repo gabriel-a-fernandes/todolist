@@ -171,3 +171,67 @@ header {
   margin-bottom: var(--spacing-small);
 }
 
+/* Media Query */
+
+@media (min-width: 760px){
+  
+  .title{
+  font-size: 38px;
+}
+  .subtitle{
+    font-size: 23px;
+  }
+  .form-task-label{
+    font-size: 15px;
+  }
+  .caixa-pesquisa{
+    font-size: 23px;
+  }
+  .avatar{
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 1240px){
+  
+  .title{
+  font-size: 50px;
+}
+  .subtitle{
+    font-size: 20px;
+  }
+  .form-task-label{
+    font-size: 12px;
+  }
+  .caixa-pesquisa{
+    font-size: 20px;
+  }
+  .avatar{
+    width: 90px;
+    height: 90px;
+  }
+
+}
+
+@media (min-width: 2560px){
+  
+  .title{
+  font-size: 80px;
+}
+  .subtitle{
+    font-size: 40px;
+  }
+  .form-task-label{
+    font-size: 30px;
+  }
+  .caixa-pesquisa{
+    font-size: 40px;
+  }
+  .avatar{
+    width: 130px;
+    height: 130px;
+  }
+
+}
+
