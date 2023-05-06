@@ -34,6 +34,7 @@
 body {
   font-family: 'Open Sans', Arial, Helvetica, 'Ubuntu', sans-serif;
   font-size: 16px;
+  background-color: var(--color-interface-light);
    
 }
 
@@ -49,6 +50,7 @@ h6 {
 header {
   padding-top: var(--spacing-medium);
   padding-bottom: var(--spacing-medium);
+  background-color: var(--color-interface-light);
 }
 
 .header-item {
@@ -64,7 +66,8 @@ header {
   border: 0;
   background-color: transparent;
   cursor: pointer;
-}
+  color: var(--color-text-dark);
+  }
 
 .title {
   line-height: 1.5;
@@ -95,7 +98,8 @@ header {
 
 .form-task {
   margin-top: var(--spacing-large);
-}
+  
+ }
 
 .form-task-label {
   color: var(--color-text-dark);
@@ -106,6 +110,7 @@ header {
 .form-task-input {
   width: 35vh;
   height: 6vh;
+  margin-bottom: var(--spacing-large);
  
 }
 
@@ -115,6 +120,7 @@ header {
   width: 7vh;
   height: 6vh;
   color: white;
+  margin-bottom: var(--spacing-large);
   
 
 }
@@ -125,16 +131,42 @@ header {
 }
 
 .fundo-menu{
-  background-color: var(--color-interface-light);
-  
+   
 }
 
 .fundo-opcoes{
- 
+ background-color: white;
+ border-radius: 5%;
+ padding-bottom: 100%;
 }
 
 .caixa-pesquisa{
   display:flex;
   padding: var(--spacing-xsmall);
   width: 100%;
+  font-size: 13px;
+  font-weight: 500;
+  
+ }
+ .task-riscada{
+  width: 100%;
+  text-decoration: line-through;
+ }
+
+ .caixa-pesquisa p{
+  width: 100%;
+  margin: 14px;
 }
+
+.pesquisabutton{
+  padding: var(--spacing-small);
+
+}
+.deletebutton{
+  padding: var(--spacing-small);
+}
+
+.separa-funcoes{
+  margin-bottom: var(--spacing-small);
+}
+/*  text-decoration: line-through; */
