@@ -138,7 +138,7 @@ header {
 
 .fundo-opcoes {
   background-color: white;
-  border-radius: 5%;
+  border-radius: 0 5% 0 0;
   border: 1px solid var(--color-text-light);
   padding-bottom: 100%;
 }
